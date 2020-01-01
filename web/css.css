@@ -1,0 +1,190 @@
+@font-face
+{
+	font-family:'Product Sans';
+	src:url(./font.woff2) format('woff2');
+}
+body
+{
+	margin:0;
+	padding:0;
+	text-align:center;
+	font-family:'Product Sans','Times New Roman','Microsoft YaHei','SimSun';
+	cursor:default;
+}
+:focus
+{
+	outline:none;
+}
+div
+{
+	width:100%;
+}
+h2
+{
+	margin:2;
+	color:#009ed6;
+}
+h3
+{
+	margin:2;
+}
+a
+{
+	text-decoration:none;
+	color:#009ed6;
+}
+a:visited
+{
+	color:#009ed6;
+}
+form
+{
+	margin-bottom:0;
+}
+input
+{
+	width:100%;
+	color:black;
+	font-family:'Product Sans','Times New Roman','Microsoft YaHei','SimSun';
+}
+button
+{
+	width:60;
+	font-family:'Product Sans','Times New Roman','Microsoft YaHei','SimSun';
+}
+hr
+{
+	margin:0;
+}
+.tr
+{
+	display:flex;
+}
+.tr:hover
+{
+	background-color:#D6EAF8;
+}
+.td
+{
+	flex:1;
+	margin:2;
+	min-width:0;
+}
+.tb
+{
+	margin-top:0;
+	margin-bottom:0;
+}
+#links
+{
+	background-color:#AED6F1;
+}
+#headline
+{
+	background-color:white;
+}
+#headTable
+{
+	position:fixed;
+	background-color:white;
+}
+#retrieve,#writenew
+{
+	width:45%;
+}
+#floatingwindow
+{
+	position:fixed;
+	width:100%;
+	height:100%;
+	text-align:center;
+	top:0;
+	margin:0;
+	padding:0;
+	display:none;
+	z-index:1;
+}
+#mask
+{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	margin:0;
+	padding:0;
+	background-color: grey;
+	opacity:0.8;
+	z-index:-1;
+}
+#floatingwindow input,#floatingwindow select,#floatingwindow textarea
+{
+	width:100%;
+	border-radius: 5px;
+	border: 1px solid grey;
+	background: none;
+	font-family:'Product Sans';
+}
+#floatingwindow textarea
+{
+	height:400px;
+}
+#detail
+{
+	width:90%;
+	border-radius: 5px;
+	border: 1px solid grey;
+	background: none;
+	font-family:'Product Sans';
+	margin: 0 auto;
+	padding: 10px;
+	background-color: white;
+}
+#detail table
+{
+	width:100%;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+#detail th
+{
+	width:60px;
+	font-weight:normal;
+	text-align:center;
+}
+#detail td
+{
+	font-weight:normal;
+	text-align:center;
+}
+#detail button
+{
+	border-radius: 5px;
+	border: 1px solid grey;
+	font-family:'Product Sans';
+	font-size:14px;
+	font-weight:bold;
+	width:24%;
+	height:25px;
+	color:white;
+	border:none;
+}
+.buttonred
+{
+	background-color: red;
+}
+.buttongreen
+{
+	background-color: green;
+}
+.buttonblue
+{
+	background-color: blue;
+}
+.buttongrey
+{
+	background-color: grey;
+}
+#attachments
+{
+	text-align:left;
+}
